@@ -17,7 +17,7 @@ class ColorDeneme extends StatelessWidget {
 
 
 class ColorItems {
-  static const Color porchase = const Color(0xffEDBF61);
+  static const Color porchase = Color(0xffEDBF61);
 
   static const Color sulu = Color.fromRGBO(198, 237, 97, 1);
 }

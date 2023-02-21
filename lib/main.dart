@@ -6,13 +6,21 @@ import '01/app_bar.dart';
 // ignore: unused_import
 import '01/button_deneme.dart';
 // ignore: unused_import
+import '01/card_deneme.dart';
+// ignore: unused_import
 import '01/color_deneme.dart';
 // ignore: unused_import
 import '01/container_sized.dart';
 // ignore: unused_import
 import '01/icon_deneme.dart';
 // ignore: unused_import
+import '01/image_deneme.dart';
+// ignore: unused_import
+import '01/padding_deneme.dart';
+// ignore: unused_import
 import '01/scaffold_deneme.dart';
+// ignore: unused_import
+import '01/stateless_deneme.dart';
 // ignore: unused_import
 import '01/text_deneme.dart';
 
@@ -36,7 +44,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const ColorDeneme(),
+      home: const ImageDeneme(),
     );
   }
 }
