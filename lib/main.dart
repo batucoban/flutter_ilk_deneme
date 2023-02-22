@@ -12,6 +12,8 @@ import '01/color_deneme.dart';
 // ignore: unused_import
 import '01/container_sized.dart';
 // ignore: unused_import
+import '01/first_scene.dart';
+// ignore: unused_import
 import '01/icon_deneme.dart';
 // ignore: unused_import
 import '01/image_deneme.dart';
@@ -44,7 +46,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const ImageDeneme(),
+      home: const FirstScene(),
     );
   }
 }
