@@ -10,6 +10,8 @@ import '01/card_deneme.dart';
 // ignore: unused_import
 import '01/color_deneme.dart';
 // ignore: unused_import
+import '01/column_row.dart';
+// ignore: unused_import
 import '01/container_sized.dart';
 // ignore: unused_import
 import '01/costom_widget.dart';
@@ -20,11 +22,15 @@ import '01/icon_deneme.dart';
 // ignore: unused_import
 import '01/image_deneme.dart';
 // ignore: unused_import
+import '01/indicator_deneme.dart';
+// ignore: unused_import
+import '01/list_tile_deneme.dart';
+// ignore: unused_import
 import '01/padding_deneme.dart';
 // ignore: unused_import
 import '01/scaffold_deneme.dart';
 // ignore: unused_import
-import '01/stateless_deneme.dart';
+import '01/stack_demo.dart';
 // ignore: unused_import
 import '01/text_deneme.dart';
 
@@ -41,6 +47,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark().copyWith(
+        progressIndicatorTheme: const ProgressIndicatorThemeData(
+          color: Colors.grey
+        ),
         appBarTheme: const AppBarTheme(
           centerTitle: true,
           systemOverlayStyle: SystemUiOverlayStyle.light,
@@ -48,7 +57,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const CostomWidget(),
+      home: const StackDemo(),
     );
   }
 }
