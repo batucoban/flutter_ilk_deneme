@@ -32,6 +32,8 @@ import '01/scaffold_deneme.dart';
 // ignore: unused_import
 import '01/stack_demo.dart';
 // ignore: unused_import
+import '01/statefull_deneme.dart';
+// ignore: unused_import
 import '01/text_deneme.dart';
 
 void main() {
@@ -57,7 +59,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const StackDemo(),
+      home: const StatefulDeneme(),
     );
   }
 }
