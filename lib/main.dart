@@ -34,7 +34,7 @@ import '01/scaffold_deneme.dart';
 // ignore: unused_import
 import '01/stack_demo.dart';
 // ignore: unused_import
-import '01/statefull_deneme.dart';
+import '01/stateful_life_cycle.dart';
 // ignore: unused_import
 import '01/text_deneme.dart';
 
@@ -61,7 +61,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const PageViewDeneme(),
+      home: const StatefulLifeCycleDeneme(message: 'batu'),
     );
   }
 }
