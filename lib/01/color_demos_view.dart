@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class ColorDemos extends StatefulWidget {
-  const ColorDemos({super.key});
+  const ColorDemos({super.key, required this.initialColor});
+  final Color? initialColor;
 
   @override
   State<ColorDemos> createState() => _ColorDemosState();
@@ -10,7 +11,23 @@ class ColorDemos extends StatefulWidget {
 class _ColorDemosState extends State<ColorDemos> {
 
   //var _MyColors2 = [Colors.red, Colors.yellow, Colors.blue];
-  Color? _backgroundColor = Colors.transparent;
+  Color? _backgroundColor;
+
+  @override
+  void initState() {
+    super.initState();
+    _backgroundColor = widget.initialColor ?? Colors.transparent;
+  }
+
+  @override
+  void didUpdateWidget(covariant ColorDemos oldWidget) {
+    super.didUpdateWidget(oldWidget);
+
+  if (widget.initialColor != _backgroundColor && widget.initialColor != null) {
+    changeBackgroundColor(widget.initialColor!);
+  }
+
+  }
 
   void changeBackgroundColor(Color color){
     setState(() {
@@ -59,7 +76,7 @@ enum _MyColors {red, yellow, blue}
 
 class _ColorContainer extends StatelessWidget {
   const _ColorContainer({
-    super.key, required this.color
+    required this.color
   });
   final Color color;
 
