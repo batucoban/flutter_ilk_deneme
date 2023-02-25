@@ -28,6 +28,8 @@ import '01/list_tile_deneme.dart';
 // ignore: unused_import
 import '01/padding_deneme.dart';
 // ignore: unused_import
+import '01/page_view.dart';
+// ignore: unused_import
 import '01/scaffold_deneme.dart';
 // ignore: unused_import
 import '01/stack_demo.dart';
@@ -59,7 +61,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const StatefulDeneme(),
+      home: const PageViewDeneme(),
     );
   }
 }

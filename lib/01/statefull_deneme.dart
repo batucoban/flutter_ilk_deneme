@@ -11,7 +11,6 @@ class StatefulDeneme extends StatefulWidget {
 class _StatefulDenemeState extends State<StatefulDeneme> {
 
   int _countValue = 0;
-  int _counterCustom = 0;
 
   void _updateCounter(bool isIncrement){
     if(isIncrement){
