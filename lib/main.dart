@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '01/color_life_cycle_view.dart';
+import '01/list_view.dart';
 
 
 void main() {
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const ColorLifeCycleView(),
+      home: const ListViewDeneme(),
     );
   }
 }
