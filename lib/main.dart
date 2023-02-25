@@ -1,43 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-// ignore: unused_import
-import '01/app_bar.dart';
-// ignore: unused_import
-import '01/button_deneme.dart';
-// ignore: unused_import
-import '01/card_deneme.dart';
-// ignore: unused_import
-import '01/color_deneme.dart';
-// ignore: unused_import
-import '01/column_row.dart';
-// ignore: unused_import
-import '01/container_sized.dart';
-// ignore: unused_import
-import '01/costom_widget.dart';
-// ignore: unused_import
-import '01/first_scene.dart';
-// ignore: unused_import
-import '01/icon_deneme.dart';
-// ignore: unused_import
-import '01/image_deneme.dart';
-// ignore: unused_import
-import '01/indicator_deneme.dart';
-// ignore: unused_import
-import '01/list_tile_deneme.dart';
-// ignore: unused_import
-import '01/padding_deneme.dart';
-// ignore: unused_import
-import '01/page_view.dart';
-// ignore: unused_import
-import '01/scaffold_deneme.dart';
-// ignore: unused_import
-import '01/stack_demo.dart';
-// ignore: unused_import
-import '01/stateful_life_cycle.dart';
-// ignore: unused_import
-import '01/text_deneme.dart';
-import '01/text_field.dart';
+import '01/color_demos_view.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -62,7 +27,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const TextFieldDeneme(),
+      home: const ColorDemos(),
     );
   }
 }
