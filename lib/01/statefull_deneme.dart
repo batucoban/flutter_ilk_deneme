@@ -40,7 +40,7 @@ class _StatefulDenemeState extends State<StatefulDeneme> {
           Center(
             child: Text(
               _countValue.toString(),
-              style: Theme.of(context).textTheme.headlineMedium,
+              style: Theme.of(context).textTheme.headlineLarge,
             )
           ),
           const Placeholder(),

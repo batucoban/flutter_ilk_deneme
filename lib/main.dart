@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '01/list_view.dart';
+import '01/my_collections_demos.dart';
+
 
 
 void main() {
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const ListViewDeneme(),
+      home: const MyCollectionsDemos(),
     );
   }
 }
