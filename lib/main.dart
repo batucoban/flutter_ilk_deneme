@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '01/my_collections_demos.dart';
+import '01/navigation_deneme.dart';
 
 
 
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const MyCollectionsDemos(),
+      home: const NavigationDeneme(),
     );
   }
 }
