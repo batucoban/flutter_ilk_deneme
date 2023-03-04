@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '01/navigation_deneme.dart';
+import '02/tab_learn.dart';
 
 
 
@@ -18,6 +18,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData.dark().copyWith(
+        tabBarTheme: const TabBarTheme(
+          labelColor: Colors.white,
+          unselectedLabelColor: Colors.red,
+          indicatorSize: TabBarIndicatorSize.label,
+        ),
         progressIndicatorTheme: const ProgressIndicatorThemeData(
           color: Colors.grey
         ),
@@ -28,7 +33,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const NavigationDeneme(),
+      home: const TabLearn(),
     );
   }
 }
