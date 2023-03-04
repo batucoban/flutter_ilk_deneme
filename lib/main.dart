@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '02/tab_learn.dart';
+import '02/model_view_learn.dart';
 
 
 
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const TabLearn(),
+      home: const ModelLearnView(),
     );
   }
 }
