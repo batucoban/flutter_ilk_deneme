@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '02/model_view_learn.dart';
+import '02/service/service_learn_view.dart';
+import '02/service/service_post_learn_view.dart';
 
 
 
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const ModelLearnView(),
+      home: const ServiceLearn(),
     );
   }
 }
