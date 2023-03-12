@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_ilk_deneme/02/theme/light_theme.dart';
 
-import '02/service/service_learn_view.dart';
-import '02/service/service_post_learn_view.dart';
+import '02/package_learn_view.dart';
 
 
 
@@ -18,7 +18,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData.dark().copyWith(
+      theme: LightTheme().theme,
+      /*
+      ThemeData.dark().copyWith(
         tabBarTheme: const TabBarTheme(
           labelColor: Colors.white,
           unselectedLabelColor: Colors.red,
@@ -34,7 +36,8 @@ class MyApp extends StatelessWidget {
           elevation: 0
         )
       ),
-      home: const ServiceLearn(),
+      */
+      home: const PackageLearnView(),
     );
   }
 }
