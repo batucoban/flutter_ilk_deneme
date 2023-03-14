@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+
+
 import 'package:flutter_ilk_deneme/02/theme/light_theme.dart';
 
-import '02/package_learn_view.dart';
+import '02/animated_learn.dart';
 
 
 
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         )
       ),
       */
-      home: const PackageLearnView(),
+      home: const AnimatedLearn(),
     );
   }
 }
