@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ilk_deneme/02/theme/light_theme.dart';
 
 
-import '02/form_learn_view.dart';
+import '02/cache/shared_learn_cache.dart';
 
 
 
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         )
       ),
       */
-      home: const FormLearnView(),
+      home: const SharedLearn(),
     );
   }
 }
