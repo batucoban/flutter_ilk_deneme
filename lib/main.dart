@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ilk_deneme/02/theme/light_theme.dart';
 
-
-import '02/cache/shared_learn_cache.dart';
+import '02/sheet_learn.dart';
 
 
 
@@ -37,7 +36,7 @@ class MyApp extends StatelessWidget {
         )
       ),
       */
-      home: const SharedLearn(),
+      home: const SheetLearn(),
     );
   }
 }
